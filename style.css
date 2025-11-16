@@ -1,0 +1,128 @@
+body{
+    background-color: #101010;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    height:100%;
+    margin:0px;
+}
+.header{
+    position:fixed;
+    background-color: #04003a;
+    padding: 10px;
+    box-sizing: border-box; 
+    z-index: 100;
+    top:0;
+    left:0;
+    right:0;
+    height:10%;
+    display:inline-flex;
+
+}
+.name{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size:small;
+    font-weight: bold;
+    color: rgb(216, 216, 215);
+
+}
+
+.logotxt{
+    color:red;
+    font-weight: bold;
+    background: linear-gradient(to right,rgb(46, 46, 46),rgb(27, 27, 27));
+    padding:15px;
+    border-radius: 8px;
+    display:inline-block;
+    margin-left: 10px;
+    margin-top: 4px;
+
+}
+.sub-header{
+    margin-left: 6px;
+    margin-top: 100px;
+    background-color: #181818;
+    display:flex;
+    padding:15px;
+    border-radius: 12px;
+    justify-content: space-between;
+}
+.sub-header img{
+    width:220px;
+    min-width:170px ;
+    border-radius: 9px;
+    display:flex;
+    justify-content: space-between;
+}
+.filler{
+    margin-left: 6px;
+}
+
+
+.card{
+    margin-left: 10px;
+    background-color: #202020;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #16dc33; /* green */
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 2px;
+  margin-right: 5px;
+}
+
+
+a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+.btn_register{
+    background-color:  rgb(255, 115, 0);
+    display: inline-block;
+    padding:8px;
+    margin-top: 1px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+.btn_view{
+    background-color: #24b001;
+    display: inline-block;
+    padding:8px;
+    margin-top: 15px;
+    border-radius: 6px;
+    margin-left: 4px;
+}
+.btn_contact{
+    background-color: #c80a0a;
+    display: inline-block;
+    padding:10px;
+    margin-left: 2%;
+    border-radius: 8px;
+
+}
+.footer{
+    padding:10px;
+    margin-top: 30px;
+    left:0;
+    right:0;
+    bottom:0;
+}
+.copyright{
+    display:flex;
+    justify-content: center;
+    margin-left: 0px;
+    background-color: #000000;
+    padding:5px;
+}
+
+
+
+
